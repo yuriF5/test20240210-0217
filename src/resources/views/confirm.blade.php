@@ -20,8 +20,6 @@
     </header>
 
     <main>
-        <?php print_r($contact) ?>
-
         <div class="confirm__content">
             <div class="confirm__heading">
             <h2>Contact</h2>

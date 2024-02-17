@@ -23,6 +23,6 @@ Route::post('/contacts', [ContactController::class, 'store']);
 
 
 //ログイン認証用AuthController
-Route::middleware('auth')->group(function () {
-    Route::get('/', [AuthController::class, 'register']);
-});
+//Route::middleware('auth')->group(function () {
+//    Route::get('/', [AuthController::class, 'register']);
+//});
